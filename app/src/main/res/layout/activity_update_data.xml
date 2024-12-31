@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#F4D7AC"
+    tools:context=".UpdateData">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:textSize="25dp"
+        android:text="Choose fiels for update" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="#FFFFFF"
+        android:padding="20dp"
+        android:gravity="center">
+
+        <RadioButton
+            android:id="@+id/rbCompany"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Company" />
+
+        <RadioButton
+        android:id="@+id/rbModel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Model" />
+
+        <RadioButton
+            android:id="@+id/rbYear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Year" />
+
+        <RadioButton
+            android:id="@+id/rbPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price" />
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/etOld"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:background="#FFFFFF"
+        android:padding="6dp"
+        android:layout_marginTop="30dp"
+        android:hint="Old data" />
+
+    <EditText
+        android:id="@+id/etNew"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:background="#FFFFFF"
+        android:padding="6dp"
+        android:layout_marginTop="30dp"
+        android:hint="New data" />
+
+    <Button
+        android:id="@+id/bUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="15dp"
+        android:text="Update" />
+
+
+</LinearLayout>

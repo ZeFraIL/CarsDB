@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#AABBCC"
+    android:padding="30dp"
+    tools:context=".InsertCar">
+
+    <EditText
+        android:id="@+id/etCompany"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:background="#FFFFFF"
+        android:padding="7dp"
+        android:layout_marginTop="50dp"
+        android:hint="Company" />
+
+    <EditText
+        android:id="@+id/etModel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="#FFFFFF"
+        android:padding="7dp"
+        android:inputType="textPersonName"
+        android:layout_marginTop="50dp"
+        android:hint="Model" />
+
+    <EditText
+        android:id="@+id/etYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="#FFFFFF"
+        android:padding="7dp"
+        android:inputType="number"
+        android:layout_marginTop="50dp"
+        android:hint="Year" />
+
+    <EditText
+        android:id="@+id/etPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="#FFFFFF"
+        android:padding="7dp"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="50dp"
+        android:hint="Price" />
+
+    <Button
+        android:id="@+id/bInsert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Insert" />
+
+</LinearLayout>
